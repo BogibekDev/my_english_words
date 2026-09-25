@@ -1,10 +1,10 @@
 {
   "android": {
-    "version": "1.0.1",
-    "build": 2,
+    "version": "1.0.2",
+    "build": 3,
     "minBuild": 1,
-    "tag": "android-v1.0.1",
+    "tag": "android-v1.0.2",
     "asset": "vocab_game.apk",
-    "notes": "Sozlamalar sahifasi va ilovani yangilash"
+    "notes": "Yangilanish oynasi pastdan chiqadi"
   }
 }
