@@ -7,43 +7,38 @@ Otaxonjonning "vocab_game" ilovasi uchun so'zlar va audiolar.
 ## Tuzilishi
 
 ```
-lessons.json        barcha darslar va so'zlar
-audio/uk/<so'z>.mp3 britancha talaffuz
-audio/us/<so'z>.mp3 amerikacha talaffuz
+lessons/unit1.json   har bir dars alohida faylda
+audio/uk/<so'z>.mp3  britancha talaffuz
+audio/us/<so'z>.mp3  amerikacha talaffuz
 tools/fetch_audio.py yetishmayotgan audiolarni yuklab oladi
 ```
 
-## So'z qo'shish
+## Dars fayli
 
-`lessons.json` faylida kerakli darsning `words` ro'yxatiga yangi qator qo'shing:
-
-```json
-{ "en": "bird", "uz": "qush", "emoji": "🐦" }
-```
-
-Yangi dars qo'shish uchun `lessons` ro'yxatiga yangi element qo'shing:
+`lessons/unit2.json`:
 
 ```json
 {
-  "id": "unit2",
   "title": "2-dars: Ranglar",
   "words": [
-    { "en": "red", "uz": "qizil", "emoji": "🟥" }
+    { "en": "red", "uz": "qizil", "emoji": "🟥" },
+    { "en": "blue", "uz": "ko'k", "emoji": "🟦" }
   ]
 }
 ```
 
-- `en` va `uz` majburiy. `emoji` ixtiyoriy: bo'lmasa, ilova o'zbekcha tarjimani katta harf bilan ko'rsatadi.
-- `id` har bir dars uchun boshqacha bo'lishi va keyin o'zgarmasligi kerak, chunki bolaning progressi shu `id` ga bog'langan.
+- Fayl nomi darsning identifikatori hisoblanadi. Bolaning progressi fayl nomiga bog'langani uchun, fayl yaratilgandan keyin uning nomini o'zgartirmang.
+- Ilovada darslar fayl nomi bo'yicha tartiblanadi: `unit1`, `unit2`, ..., `unit10`.
+- `en` va `uz` maydonlari majburiy. `emoji` ixtiyoriy: agar bo'lmasa, ilova o'zbekcha tarjimani katta harflar bilan ko'rsatadi.
 - `audio` maydonini qo'lda yozish shart emas.
 
-Keyin audiolarni qo'shish uchun:
+## Audio qo'shish
 
 ```sh
 python3 tools/fetch_audio.py
-git add -A && git commit -m "Add words" && git push
+git add -A && git commit -m "Add unit2" && git push
 ```
 
-Audiosi yo'q so'zlar uchun ilova qurilmaning ovozidan (TTS) foydalanadi.
+Audiosi topilmagan so'zlar uchun ilova qurilmaning o'z ovozidan (TTS) foydalanadi.
 
-Ilovada **"Yangilash"** tugmasi bosilganda o'zgarishlar yuklab olinadi.
+O'zgarishlar ilovadagi **"Yangilash"** tugmasi bosilganda yuklab olinadi.

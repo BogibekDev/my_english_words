@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fill in missing UK/US pronunciation audio for every word in lessons.json.
+"""Fill in missing UK/US pronunciation audio for every word in lessons/*.json.
 
 For personal use only: audio comes from Cambridge Dictionary and must stay in
 this private repository.
@@ -8,7 +8,7 @@ Usage (from the repo root):
     python3 tools/fetch_audio.py
 
 For each word it saves audio/uk/<slug>.mp3 and audio/us/<slug>.mp3 and writes
-the paths into lessons.json. Words whose audio already exists are skipped.
+the paths into the lesson file. Words whose audio already exists are skipped.
 """
 
 import json
@@ -19,7 +19,7 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LESSONS = ROOT / "lessons.json"
+LESSONS = ROOT / "lessons"
 BASE = "https://dictionary.cambridge.org"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/126 Safari/537.36"
 
@@ -51,9 +51,9 @@ def audio_urls(word: str) -> dict[str, str]:
 
 
 def main() -> int:
-    data = json.loads(LESSONS.read_text(encoding="utf-8"))
     missing = []
-    for lesson in data["lessons"]:
+    for lesson_file in sorted(LESSONS.glob("*.json")):
+        lesson = json.loads(lesson_file.read_text(encoding="utf-8"))
         for w in lesson["words"]:
             audio = w.setdefault("audio", {})
             todo = [a for a in ("uk", "us") if not (audio.get(a) and (ROOT / audio[a]).exists())]
@@ -73,8 +73,8 @@ def main() -> int:
                 audio[accent] = path
                 print(f"ok  {w['en']:<20} {accent.upper()}")
             time.sleep(1)  # be polite to the site
+        lesson_file.write_text(json.dumps(lesson, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    LESSONS.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if missing:
         print("\nAudio not found:", ", ".join(missing))
     return 0
