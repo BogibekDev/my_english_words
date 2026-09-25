@@ -1,0 +1,28 @@
+{
+  "lessons": [
+    {
+      "id": "unit1",
+      "title": "1-dars: Hayvonlar",
+      "words": [
+        {
+          "en": "cat",
+          "uz": "mushuk",
+          "emoji": "🐱",
+          "audio": {
+            "uk": "audio/uk/cat.mp3",
+            "us": "audio/us/cat.mp3"
+          }
+        },
+        {
+          "en": "dog",
+          "uz": "it",
+          "emoji": "🐶",
+          "audio": {
+            "uk": "audio/uk/dog.mp3",
+            "us": "audio/us/dog.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}
