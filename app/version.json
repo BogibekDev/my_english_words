@@ -1,10 +1,10 @@
 {
   "android": {
-    "version": "1.0.2",
-    "build": 3,
+    "version": "1.0.3",
+    "build": 4,
     "minBuild": 1,
-    "tag": "android-v1.0.2",
+    "tag": "android-v1.0.3",
     "asset": "vocab_game.apk",
-    "notes": "Yangilanish oynasi pastdan chiqadi"
+    "notes": "Yangi ikonka"
   }
 }
