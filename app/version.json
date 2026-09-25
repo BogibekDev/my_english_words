@@ -6,5 +6,29 @@
     "tag": "android-v1.0.3",
     "asset": "vocab_game.apk",
     "notes": "Yangi ikonka"
+  },
+  "windows": {
+    "version": "1.0.3",
+    "build": 4,
+    "minBuild": 1,
+    "tag": "windows-v1.0.3",
+    "asset": "vocab_game_setup.exe",
+    "notes": "Birinchi desktop versiya, yangi ikonka"
+  },
+  "linux": {
+    "version": "1.0.3",
+    "build": 4,
+    "minBuild": 1,
+    "tag": "linux-v1.0.3",
+    "asset": "vocab_game_linux.tar.gz",
+    "notes": "Birinchi desktop versiya, yangi ikonka"
+  },
+  "macos": {
+    "version": "1.0.3",
+    "build": 4,
+    "minBuild": 1,
+    "tag": "macos-v1.0.3",
+    "asset": "vocab_game_macos.zip",
+    "notes": "Birinchi desktop versiya, yangi ikonka"
   }
 }
