@@ -4,19 +4,25 @@
     {
       "en": "cat",
       "uz": "mushuk",
-      "emoji": "🐱",
       "audio": {
         "uk": "audio/uk/cat.mp3",
         "us": "audio/us/cat.mp3"
       }
     },
     {
-      "en": "dog",
-      "uz": "it",
-      "emoji": "🐶",
+      "en": "bat",
+      "uz": "ko'rshapalak",
       "audio": {
-        "uk": "audio/uk/dog.mp3",
-        "us": "audio/us/dog.mp3"
+        "uk": "audio/uk/bat.mp3",
+        "us": "audio/us/bat.mp3"
+      }
+    },
+    {
+      "en": "rat",
+      "uz": "kalamush",
+      "audio": {
+        "uk": "audio/uk/rat.mp3",
+        "us": "audio/us/rat.mp3"
       }
     }
   ]
