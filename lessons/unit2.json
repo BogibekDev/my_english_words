@@ -1,0 +1,45 @@
+{
+  "title": "2-dars",
+  "words": [
+    {
+      "en": "cap",
+      "uz": "kepka, qalpoq",
+      "audio": {
+        "uk": "audio/uk/cap.mp3",
+        "us": "audio/us/cap.mp3"
+      }
+    },
+    {
+      "en": "hat",
+      "uz": "shlapa",
+      "audio": {
+        "uk": "audio/uk/hat.mp3",
+        "us": "audio/us/hat.mp3"
+      }
+    },
+    {
+      "en": "pen",
+      "uz": "ruchka",
+      "audio": {
+        "uk": "audio/uk/pen.mp3",
+        "us": "audio/us/pen.mp3"
+      }
+    },
+    {
+      "en": "hen",
+      "uz": "tovuq",
+      "audio": {
+        "uk": "audio/uk/hen.mp3",
+        "us": "audio/us/hen.mp3"
+      }
+    },
+    {
+      "en": "and",
+      "uz": "va",
+      "audio": {
+        "uk": "audio/uk/and.mp3",
+        "us": "audio/us/and.mp3"
+      }
+    }
+  ]
+}
