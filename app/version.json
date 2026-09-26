@@ -1,34 +1,34 @@
 {
   "android": {
-    "version": "1.0.4",
-    "build": 5,
+    "version": "1.0.6",
+    "build": 6,
     "minBuild": 1,
-    "tag": "v1.0.4",
+    "tag": "v1.0.6",
     "asset": "vocab_game.apk",
-    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
+    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
   },
   "windows": {
-    "version": "1.0.4",
-    "build": 5,
+    "version": "1.0.6",
+    "build": 6,
     "minBuild": 1,
-    "tag": "v1.0.4",
+    "tag": "v1.0.6",
     "asset": "vocab_game_setup.exe",
-    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
+    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
   },
   "linux": {
-    "version": "1.0.4",
-    "build": 5,
+    "version": "1.0.6",
+    "build": 6,
     "minBuild": 1,
-    "tag": "v1.0.4",
+    "tag": "v1.0.6",
     "asset": "vocab_game_linux.tar.gz",
-    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
+    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
   },
   "macos": {
-    "version": "1.0.4",
-    "build": 5,
+    "version": "1.0.6",
+    "build": 6,
     "minBuild": 1,
-    "tag": "v1.0.4",
+    "tag": "v1.0.6",
     "asset": "vocab_game_macos.zip",
-    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
+    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
   }
 }
