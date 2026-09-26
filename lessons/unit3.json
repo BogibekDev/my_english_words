@@ -1,0 +1,53 @@
+{
+  "title": "3-dars",
+  "words": [
+    {
+      "en": "three",
+      "uz": "uch",
+      "audio": {
+        "uk": "audio/uk/three.mp3",
+        "us": "audio/us/three.mp3"
+      }
+    },
+    {
+      "en": "dog",
+      "uz": "kuchuk, it",
+      "audio": {
+        "uk": "audio/uk/dog.mp3",
+        "us": "audio/us/dog.mp3"
+      }
+    },
+    {
+      "en": "pig",
+      "uz": "cho'chqa",
+      "audio": {
+        "uk": "audio/uk/pig.mp3",
+        "us": "audio/us/pig.mp3"
+      }
+    },
+    {
+      "en": "cup",
+      "uz": "finjon, piyola",
+      "audio": {
+        "uk": "audio/uk/cup.mp3",
+        "us": "audio/us/cup.mp3"
+      }
+    },
+    {
+      "en": "gun",
+      "uz": "miltiq",
+      "audio": {
+        "uk": "audio/uk/gun.mp3",
+        "us": "audio/us/gun.mp3"
+      }
+    },
+    {
+      "en": "one",
+      "uz": "bir, bitta",
+      "audio": {
+        "uk": "audio/uk/one.mp3",
+        "us": "audio/us/one.mp3"
+      }
+    }
+  ]
+}
