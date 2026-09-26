@@ -1,34 +1,34 @@
 {
   "android": {
-    "version": "1.0.3",
-    "build": 4,
+    "version": "1.0.4",
+    "build": 5,
     "minBuild": 1,
-    "tag": "v1.0.3",
+    "tag": "v1.0.4",
     "asset": "vocab_game.apk",
-    "notes": "Yangi ikonka"
+    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
   },
   "windows": {
-    "version": "1.0.3",
-    "build": 4,
+    "version": "1.0.4",
+    "build": 5,
     "minBuild": 1,
-    "tag": "v1.0.3",
+    "tag": "v1.0.4",
     "asset": "vocab_game_setup.exe",
-    "notes": "Birinchi desktop versiya, yangi ikonka"
+    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
   },
   "linux": {
-    "version": "1.0.3",
-    "build": 4,
+    "version": "1.0.4",
+    "build": 5,
     "minBuild": 1,
-    "tag": "v1.0.3",
+    "tag": "v1.0.4",
     "asset": "vocab_game_linux.tar.gz",
-    "notes": "Birinchi desktop versiya, yangi ikonka"
+    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
   },
   "macos": {
-    "version": "1.0.3",
-    "build": 4,
+    "version": "1.0.4",
+    "build": 5,
     "minBuild": 1,
-    "tag": "v1.0.3",
+    "tag": "v1.0.4",
     "asset": "vocab_game_macos.zip",
-    "notes": "Birinchi desktop versiya, yangi ikonka"
+    "notes": "Yangi o'yinlar: Test, Juftlash, Harfni top. Kartochkalarda Bildim/Bilmadim, o'rganilgan so'zlar belgilanadi."
   }
 }
