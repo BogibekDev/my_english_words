@@ -1,0 +1,124 @@
+{
+  "title": "7-dars",
+  "words": [
+    {
+      "en": "lesson",
+      "uz": "dars",
+      "audio": {
+        "uk": "audio/uk/lesson.mp3",
+        "us": "audio/us/lesson.mp3"
+      }
+    },
+    {
+      "en": "seven",
+      "uz": "yetti",
+      "audio": {
+        "uk": "audio/uk/seven.mp3",
+        "us": "audio/us/seven.mp3"
+      }
+    },
+    {
+      "en": "I",
+      "uz": "men",
+      "audio": {
+        "uk": "audio/uk/i.mp3",
+        "us": "audio/us/i.mp3"
+      }
+    },
+    {
+      "en": "to have",
+      "uz": "ega bo'lmoq",
+      "audio": {
+        "uk": "audio/uk/to-have.mp3",
+        "us": "audio/us/to-have.mp3"
+      }
+    },
+    {
+      "en": "I have",
+      "uz": "menda bor",
+      "audio": {}
+    },
+    {
+      "en": "I have no",
+      "uz": "menda yo'q",
+      "audio": {}
+    },
+    {
+      "en": "book",
+      "uz": "kitob",
+      "audio": {
+        "uk": "audio/uk/book.mp3",
+        "us": "audio/us/book.mp3"
+      }
+    },
+    {
+      "en": "copy-book",
+      "uz": "daftar",
+      "audio": {
+        "uk": "audio/uk/copy-book.mp3",
+        "us": "audio/us/copy-book.mp3"
+      }
+    },
+    {
+      "en": "but",
+      "uz": "lekin, ammo, biroq",
+      "audio": {
+        "uk": "audio/uk/but.mp3",
+        "us": "audio/us/but.mp3"
+      }
+    },
+    {
+      "en": "spoon",
+      "uz": "qoshiq",
+      "audio": {
+        "uk": "audio/uk/spoon.mp3",
+        "us": "audio/us/spoon.mp3"
+      }
+    },
+    {
+      "en": "to show",
+      "uz": "ko'rsatmoq",
+      "audio": {
+        "uk": "audio/uk/to-show.mp3",
+        "us": "audio/us/to-show.mp3"
+      }
+    },
+    {
+      "en": "Show!",
+      "uz": "ko'rsat(ing)!",
+      "audio": {
+        "uk": "audio/uk/show.mp3",
+        "us": "audio/us/show.mp3"
+      }
+    },
+    {
+      "en": "me",
+      "uz": "menga",
+      "audio": {
+        "uk": "audio/uk/me.mp3",
+        "us": "audio/us/me.mp3"
+      }
+    },
+    {
+      "en": "to give",
+      "uz": "bermoq",
+      "audio": {
+        "uk": "audio/uk/to-give.mp3",
+        "us": "audio/us/to-give.mp3"
+      }
+    },
+    {
+      "en": "Give me!",
+      "uz": "menga ber(ing)!",
+      "audio": {}
+    },
+    {
+      "en": "Good morning!",
+      "uz": "Xayrli tong!",
+      "audio": {
+        "uk": "audio/uk/good-morning.mp3",
+        "us": "audio/us/good-morning.mp3"
+      }
+    }
+  ]
+}

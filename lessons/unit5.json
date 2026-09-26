@@ -1,0 +1,45 @@
+{
+  "title": "5-dars",
+  "words": [
+    {
+      "en": "five",
+      "uz": "besh",
+      "audio": {
+        "uk": "audio/uk/five.mp3",
+        "us": "audio/us/five.mp3"
+      }
+    },
+    {
+      "en": "star",
+      "uz": "yulduz, yulduzcha",
+      "audio": {
+        "uk": "audio/uk/star.mp3",
+        "us": "audio/us/star.mp3"
+      }
+    },
+    {
+      "en": "vase",
+      "uz": "guldon",
+      "audio": {
+        "uk": "audio/uk/vase.mp3",
+        "us": "audio/us/vase.mp3"
+      }
+    },
+    {
+      "en": "kitten",
+      "uz": "mushukcha, mushuk bolasi",
+      "audio": {
+        "uk": "audio/uk/kitten.mp3",
+        "us": "audio/us/kitten.mp3"
+      }
+    },
+    {
+      "en": "lamp",
+      "uz": "lampa",
+      "audio": {
+        "uk": "audio/uk/lamp.mp3",
+        "us": "audio/us/lamp.mp3"
+      }
+    }
+  ]
+}

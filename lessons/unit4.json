@@ -1,0 +1,45 @@
+{
+  "title": "4-dars",
+  "words": [
+    {
+      "en": "four",
+      "uz": "to'rt",
+      "audio": {
+        "uk": "audio/uk/four.mp3",
+        "us": "audio/us/four.mp3"
+      }
+    },
+    {
+      "en": "box",
+      "uz": "quti",
+      "audio": {
+        "uk": "audio/uk/box.mp3",
+        "us": "audio/us/box.mp3"
+      }
+    },
+    {
+      "en": "fox",
+      "uz": "tulki",
+      "audio": {
+        "uk": "audio/uk/fox.mp3",
+        "us": "audio/us/fox.mp3"
+      }
+    },
+    {
+      "en": "bed",
+      "uz": "karavot",
+      "audio": {
+        "uk": "audio/uk/bed.mp3",
+        "us": "audio/us/bed.mp3"
+      }
+    },
+    {
+      "en": "jam",
+      "uz": "murabbo",
+      "audio": {
+        "uk": "audio/uk/jam.mp3",
+        "us": "audio/us/jam.mp3"
+      }
+    }
+  ]
+}

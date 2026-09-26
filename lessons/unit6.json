@@ -1,0 +1,53 @@
+{
+  "title": "6-dars",
+  "words": [
+    {
+      "en": "six",
+      "uz": "olti",
+      "audio": {
+        "uk": "audio/uk/six.mp3",
+        "us": "audio/us/six.mp3"
+      }
+    },
+    {
+      "en": "boy",
+      "uz": "o'g'il bola",
+      "audio": {
+        "uk": "audio/uk/boy.mp3",
+        "us": "audio/us/boy.mp3"
+      }
+    },
+    {
+      "en": "wolf",
+      "uz": "bo'ri",
+      "audio": {
+        "uk": "audio/uk/wolf.mp3",
+        "us": "audio/us/wolf.mp3"
+      }
+    },
+    {
+      "en": "zebra",
+      "uz": "zebra",
+      "audio": {
+        "uk": "audio/uk/zebra.mp3",
+        "us": "audio/us/zebra.mp3"
+      }
+    },
+    {
+      "en": "squirrel",
+      "uz": "olmaxon",
+      "audio": {
+        "uk": "audio/uk/squirrel.mp3",
+        "us": "audio/us/squirrel.mp3"
+      }
+    },
+    {
+      "en": "two",
+      "uz": "ikki",
+      "audio": {
+        "uk": "audio/uk/two.mp3",
+        "us": "audio/us/two.mp3"
+      }
+    }
+  ]
+}
