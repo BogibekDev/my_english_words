@@ -1,34 +1,34 @@
 {
   "android": {
-    "version": "1.0.6",
-    "build": 6,
+    "version": "1.0.7",
+    "build": 7,
     "minBuild": 1,
-    "tag": "v1.0.6",
+    "tag": "v1.0.7",
     "asset": "vocab_game.apk",
-    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
+    "notes": "Windowsda so'z o'qilganda ilova yopilib qolishi tuzatildi."
   },
   "windows": {
-    "version": "1.0.6",
-    "build": 6,
+    "version": "1.0.7",
+    "build": 7,
     "minBuild": 1,
-    "tag": "v1.0.6",
+    "tag": "v1.0.7",
     "asset": "vocab_game_setup.exe",
-    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
+    "notes": "Windowsda so'z o'qilganda ilova yopilib qolishi tuzatildi."
   },
   "linux": {
-    "version": "1.0.6",
-    "build": 6,
+    "version": "1.0.7",
+    "build": 7,
     "minBuild": 1,
-    "tag": "v1.0.6",
+    "tag": "v1.0.7",
     "asset": "vocab_game_linux.tar.gz",
-    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
+    "notes": "Windowsda so'z o'qilganda ilova yopilib qolishi tuzatildi."
   },
   "macos": {
-    "version": "1.0.6",
-    "build": 6,
+    "version": "1.0.7",
+    "build": 7,
     "minBuild": 1,
-    "tag": "v1.0.6",
+    "tag": "v1.0.7",
     "asset": "vocab_game_macos.zip",
-    "notes": "Yuklanishda foiz ko'rsatiladi, Harfni top'da katta harflar saqlanadi."
+    "notes": "Windowsda so'z o'qilganda ilova yopilib qolishi tuzatildi."
   }
 }
